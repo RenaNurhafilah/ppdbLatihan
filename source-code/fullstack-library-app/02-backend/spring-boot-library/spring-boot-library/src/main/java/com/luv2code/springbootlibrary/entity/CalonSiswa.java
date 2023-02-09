@@ -5,9 +5,9 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "calon_peserta")
+@Table(name = "calon_siswa")
 @Data
-public class CalonPeserta {
+public class CalonSiswa {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
