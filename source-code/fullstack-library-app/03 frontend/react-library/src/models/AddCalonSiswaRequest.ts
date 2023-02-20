@@ -1,5 +1,4 @@
-class AddCalonSiswa {
-    id: number;
+class AddCalonSiswaRequest {
     name: string;
     namaAyah: string;
     noTelephone: string;
@@ -7,9 +6,9 @@ class AddCalonSiswa {
     email: string;
 
 
-    constructor ( id: number, name: string, namaAyah: string, noTelephone: string,
+    constructor ( name: string, namaAyah: string, noTelephone: string,
                  password : string, email: string ) {
-        this.id = id;
+
         this.name = name;
         this.namaAyah = namaAyah;
         this.noTelephone = noTelephone;
@@ -19,4 +18,4 @@ class AddCalonSiswa {
     }
 }
 
-export default AddCalonSiswa;
+export default AddCalonSiswaRequest;

@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://localhost:3001")
 @RestController
 @RequestMapping("/api/calonsiswas")
 public class CalonSiswaController {
