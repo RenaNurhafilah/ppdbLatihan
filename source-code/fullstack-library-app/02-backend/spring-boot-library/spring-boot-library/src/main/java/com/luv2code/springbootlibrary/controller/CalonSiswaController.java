@@ -5,11 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 
 @CrossOrigin("http://localhost:3000")
 @RestController
-@RequestMapping("/api/calonsiswa")
+@RequestMapping("/api/calonsiswas")
 public class CalonSiswaController {
 
     private CalonSiswaService calonSiswaService;

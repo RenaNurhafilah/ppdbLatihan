@@ -17,10 +17,10 @@ public class CalonSiswa {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "nama_ayah")
+    @Column(name = "namaAyah")
     private String namaAyah;
 
-    @Column(name = "no_telephone")
+    @Column(name = "noTelephone")
     private String noTelephone;
 
     @Column(name = "password")

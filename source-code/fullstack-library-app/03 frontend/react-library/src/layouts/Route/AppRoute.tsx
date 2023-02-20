@@ -1,8 +1,8 @@
-import CalonPeserta from "../../Pages/CalonSiswa/CalonPeserta";
+import CalonSiswaList from "../../Pages/CalonSiswa/CalonSiswa";
 
 function AppRoute () {
     return(
-        <CalonPeserta/>
+      <CalonSiswaList calonSiswa={} deleteCalonSiswa={}
     )
 }
 

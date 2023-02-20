@@ -52,12 +52,25 @@
   cursor: default;
 }
 
+
 .content{
-  width: 1500px;
-  height: 643px;
+  width: 1200px;
+  height: 505px;
   background-color: white;
   margin: 50px auto;
-  box-shadow: 1px 2px 4px;
+  box-shadow: 2px 4px 6px;
   padding: 0 3rem;
   border-radius: 10px;
+
+}
+
+.jarak-atas{
+  width: 1200px;
+  height: 80px;
+  background-color: #058EDB;
+  margin: 54px auto;
+  box-shadow: 2px 2px 6px;
+  padding: 0 2rem;
+  border-radius: 5px;
+  color: #fafafa;
 }
