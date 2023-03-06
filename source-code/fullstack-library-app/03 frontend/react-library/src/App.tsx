@@ -4,6 +4,7 @@ import {Footer} from "./layouts/NavbarSidebarAndFooter/Footer";
 import {Navbar} from "./layouts/NavbarSidebarAndFooter/Navbar";
 import {Redirect, Route, Switch} from "react-router-dom";
 import {CalonSiswaPage} from "./layouts/CalonSiswa/CalonSiswaPage";
+import {HomePage} from "./layouts/HomePage/HomePage";
 
 export const App = () => {
   return (
@@ -12,7 +13,10 @@ export const App = () => {
         <div className='flex-grow-1'>
             <Switch>
                 <Route path='/' exact>
-                    <Redirect to='/home'/>
+                    <Redirect to='/home' />
+                </Route>
+                <Route path='/home'>
+                    <HomePage />
                 </Route>
                 <Route path='/addSiswa'> <CalonSiswaPage/> </Route>
             </Switch>

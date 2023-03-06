@@ -4,6 +4,8 @@ export const Navbar = () => {
     return (
         <nav className='navbar navbar-expand-lg navbar-dark main-color py-3'>
             <div className='container-fluid'>
+                &emsp;
+                &emsp;
                 <img className="d-block  rounded" src={sdit} alt="sdit" height="50"  />
                 &emsp;
                 <h3 className='text-white'>PPDB SDIT Fatahillah</h3>
@@ -37,7 +39,6 @@ export const Navbar = () => {
                                 <li className='nav-item m-1'>
                                     <a type='button' className='btn btn-outline-light' href='#'>Logout</a>
                                 </li>
-                                :
 
                         </ul>
                     </div>
